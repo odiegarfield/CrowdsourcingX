@@ -1,0 +1,77 @@
+﻿@using CrowdsourcingX.Common
+@model CrowdsourcingX.Web.Models.UserModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaymentMethod" class="control-label"></label>
+                @Html.DropDownListFor(m => m.PaymentMethod, new SelectList(Constants.PaymentMethods),new {@class = "form-control"})
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Age" class="control-label"></label>
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sex" class="control-label"></label>
+                <input asp-for="Sex" class="form-control" />
+                <span asp-validation-for="Sex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ethnicity" class="control-label"></label>
+                @Html.DropDownListFor(m => m.Ethnicity, new SelectList(Constants.Ethnicity),new {@class = "form-control"})
+                <span asp-validation-for="Ethnicity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountryOfOrigin" class="control-label"></label>
+                <input asp-for="CountryOfOrigin" class="form-control" />
+                <span asp-validation-for="CountryOfOrigin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountryOfResidence" class="control-label"></label>
+                <input asp-for="CountryOfResidence" class="form-control" />
+                <span asp-validation-for="CountryOfResidence" class="text-danger"></span>
+            </div>
+            <canvas id="colors_sketch" width="500" height="200" style="border: 1px solid #ccc">
+            </canvas>
+            <input asp-for="Signature" type="hidden" name="Signature" />
+            <div class="form-group">
+                <input id="btnSubmit" type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/mobomo/sketch.js/master/lib/sketch.min.js"></script>
+<script type="text/javascript" src="~/js/site.js"></script>
+}

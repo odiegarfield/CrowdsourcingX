@@ -1,0 +1,15 @@
+﻿namespace CrowdsourcingX.Web.Models
+{
+    public class UserModel : BaseModel
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string PaymentMethod { get; set; }
+        public string Age { get; set; }
+        public string Sex { get; set; }
+        public string Ethnicity { get; set; }
+        public string CountryOfOrigin { get; set; }
+        public string CountryOfResidence { get; set; }
+        public string Signature { get; set; }
+    }
+}

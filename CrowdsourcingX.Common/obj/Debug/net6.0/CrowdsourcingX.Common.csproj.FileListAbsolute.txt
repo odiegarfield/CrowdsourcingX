@@ -1,0 +1,12 @@
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\bin\Debug\net6.0\CrowdsourcingX.Common.deps.json
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\bin\Debug\net6.0\CrowdsourcingX.Common.dll
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\bin\Debug\net6.0\CrowdsourcingX.Common.pdb
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\CrowdsourcingX.Common.csproj.AssemblyReference.cache
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\CrowdsourcingX.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\CrowdsourcingX.Common.AssemblyInfoInputs.cache
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\CrowdsourcingX.Common.AssemblyInfo.cs
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\CrowdsourcingX.Common.csproj.CoreCompileInputs.cache
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\CrowdsourcingX.Common.dll
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\refint\CrowdsourcingX.Common.dll
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\CrowdsourcingX.Common.pdb
+D:\Work\CrowdsourcingX\CrowdsourcingX.Common\obj\Debug\net6.0\ref\CrowdsourcingX.Common.dll
